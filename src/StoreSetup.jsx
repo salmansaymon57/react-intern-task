@@ -124,10 +124,11 @@ export default function CreateStore() {
 };
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 bg-white rounded-lg shadow-md font-sans">
+    
+    <div className="w-full max-w-5xl  sm:px-2 lg:px-10 py-6 bg-white rounded-lg shadow-md font-sans">
       <h1 className="text-auto max-text-2xl font-bold mb-2">Create a store</h1>
       <p className="text-sm sm:text-base text-gray-600 mb-8">Add your basic store information and complete the setup</p>
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-4">
         
         <div className="grid grid-cols-2">
 
@@ -287,6 +288,8 @@ export default function CreateStore() {
         </button>
       </form>
     </div>
+   
+    
 
   );
 }
